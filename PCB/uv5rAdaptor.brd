@@ -18,8 +18,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -521,8 +521,14 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="Stm" package="LQFP48" value="STM32F302XX/STM32F303XX" x="6.8988" y="6.9596" rot="R180"/>
-<element name="U$2" library="Stm" package="TQFP44" value="UV5R" x="6.9088" y="6.9596"/>
+<element name="U$1" library="Stm" package="LQFP48" value="STM32F302XX/STM32F303XX" x="6.8988" y="6.9596" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.6028" y="6.1807" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="10.0789" y="13.6595" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U$2" library="Stm" package="TQFP44" value="UV5R" x="6.9088" y="6.9596" smashed="yes">
+<attribute name="NAME" x="4.2672" y="7.0358" size="1.778" layer="26"/>
+<attribute name="VALUE" x="2.4638" y="-1.7955" size="1.778" layer="28"/>
+</element>
 </elements>
 <signals>
 <signal name="KEY_C4">
