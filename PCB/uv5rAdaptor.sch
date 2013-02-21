@@ -592,9 +592,9 @@
 <pinref part="U$2" gate="G$1" pin="PC2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB2"/>
-<wire x1="142.24" y1="2.54" x2="142.24" y2="-10.16" width="0.1524" layer="91"/>
-<label x="142.24" y="-7.62" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="PB1"/>
+<wire x1="137.16" y1="2.54" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
+<label x="137.16" y="-7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RX_PW" class="0">
@@ -604,9 +604,9 @@
 <pinref part="U$2" gate="G$1" pin="PC1"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB1"/>
-<wire x1="137.16" y1="2.54" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
-<label x="137.16" y="-7.62" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="PB2"/>
+<wire x1="142.24" y1="2.54" x2="142.24" y2="-10.16" width="0.1524" layer="91"/>
+<label x="142.24" y="-7.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="CLK_FM" class="0">
