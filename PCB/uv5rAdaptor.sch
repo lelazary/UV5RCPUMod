@@ -780,9 +780,9 @@
 <pinref part="U$2" gate="G$1" pin="OSCO"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PF1/OSC_OUT"/>
-<wire x1="91.44" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
-<label x="83.82" y="40.64" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PC15/OSC32_OUT"/>
+<wire x1="91.44" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
+<label x="83.82" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OSC_IN" class="0">
@@ -792,9 +792,9 @@
 <pinref part="U$2" gate="G$1" pin="OSCI"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PF0/OSC_IN"/>
-<wire x1="91.44" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
-<label x="83.82" y="45.72" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PC14/OSC32_IN"/>
+<wire x1="91.44" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<label x="83.82" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO6" class="0">
@@ -804,9 +804,9 @@
 <pinref part="U$2" gate="G$1" pin="P62"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PC14/OSC32_IN"/>
-<wire x1="91.44" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
-<label x="83.82" y="55.88" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PF1/OSC_OUT"/>
+<wire x1="91.44" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
+<label x="83.82" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOX" class="0">
@@ -816,9 +816,9 @@
 <pinref part="U$2" gate="G$1" pin="P63"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PC15/OSC32_OUT"/>
-<wire x1="91.44" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<label x="83.82" y="50.8" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PF0/OSC_IN"/>
+<wire x1="91.44" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
+<label x="83.82" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LOW_BAT" class="0">
